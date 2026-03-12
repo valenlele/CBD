@@ -9,16 +9,20 @@
         <Filename Value="ej6p1.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="7"/>
-        <CursorPos X="23" Y="27"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="28"/>
+        <CursorPos X="47" Y="39"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="1">
       <Position>
         <Filename Value="ej6p1.lpr"/>
-        <Caret Line="27" Column="20" TopLine="7"/>
+        <Caret Line="27" Column="48" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="ej6p1.lpr"/>
+        <Caret Line="14" Column="43" TopLine="13"/>
       </Position>
     </JumpHistory>
     <RunParams>
