@@ -17,7 +17,7 @@ begin
   reset(archBin);
   while (not eof(archBin)) do begin
     read(archBin,num);
-    write(archTxt,num);
+    writeln(archTxt,num);
   end;
 
   close(archBin);
@@ -33,5 +33,6 @@ begin
   readln(nomArchBin);
   assign(archBin,nomArchBin);
   textoAbinario(archBin);
+  readln;
 end.
 

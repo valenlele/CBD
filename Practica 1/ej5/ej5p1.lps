@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej5p1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="94"/>
+        <CursorPos X="44" Y="102"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="21">
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="34" Column="10" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="44" Column="17" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="53" Column="31" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="52" Column="20" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="53" Column="30" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="44" Column="57" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="23" Column="55" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="122" Column="8" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="90" Column="70" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="83" Column="32" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="135" Column="8" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="92" Column="66" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="103" Column="12" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="165" Column="8" TopLine="157"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="131" Column="21" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="127" Column="27" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="129" Column="17" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="127" Column="22" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="129" Column="27" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="127" Column="22" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="123" Column="18" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="ej5p1.lpr"/>
+        <Caret Line="130" Column="19" TopLine="118"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

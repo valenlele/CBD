@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1497193866"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FiC:\Users\valen\OneDrive\Desktop\CBD\Practica 1\ej6\lib\x86_64-win64&quot; &quot;-FuC:\Users\valen\OneDrive\Desktop\CBD\Practica 1\ej6\&quot; &quot;-FUC:\Users\valen\OneDrive\Desktop\CBD\Practica 1\ej6\lib\x86_64-win64\&quot; &quot;-FEC:\Users\valen\OneDrive\Desktop\CBD\Practica 1\ej6\&quot; &quot;-oC:\Users\valen\OneDrive\Desktop\CBD\Practica 1\ej6\ej6p1.exe&quot; ej6p1.lpr"/>
+</CONFIG>
