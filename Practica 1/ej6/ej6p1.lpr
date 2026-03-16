@@ -15,6 +15,8 @@ var
   arch:archivo;
   archTxt:Text;
   l:libro;
+  isbn:int64;
+  encontre:boolean;
 
 begin
   assign(arch, 'binarioLibros');
@@ -33,7 +35,7 @@ begin
   close(archTxt);
 
   reset(arch);
-  writeln('Se ingresa informacion de un libro: ');
+  writeln('Se ingresa informacion de un nuevo libro: ');
   write('ISBN: ');
   readln(l.isbn);
   write('Titulo: ');
@@ -46,5 +48,31 @@ begin
   readln(l.genero);
   seek(arch, filesize(arch));
   write(arch, l);
+
+  seek(arch, 0);
+
+  encontre:= false;
+  write('Ingrese el ISBN del libro a modificar: ');
+  readln(isbn);
+  while ((not eof(arch)) and (not encontre)) do begin
+    read(arch, l);
+    if (l.isbn = isbn) then begin
+     encontre:= true;
+     writeln('Libro encontrado. ');
+     write('ISBN: ');
+     readln(l.isbn);
+     write('Titulo: ');
+     readln(l.titulo);
+     write('Anio: ');
+     readln(l.anio);
+     write('Editorial: ');
+     readln(l.editorial);
+     write('Genero: ');
+     readln(l.genero);
+     seek(arch, filepos(arch)-1);
+     write(arch, l);
+    end;
+  end;
+  readln;
 end.
 
