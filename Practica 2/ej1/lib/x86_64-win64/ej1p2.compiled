@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq &quot;-FiC:\Users\valen\Desktop\CBD\Practica 2\ej1\lib\x86_64-win64&quot; &quot;-FuC:\Users\valen\Desktop\CBD\Practica 2\ej1\&quot; &quot;-FUC:\Users\valen\Desktop\CBD\Practica 2\ej1\lib\x86_64-win64\&quot; &quot;-FEC:\Users\valen\Desktop\CBD\Practica 2\ej1\&quot; &quot;-oC:\Users\valen\Desktop\CBD\Practica 2\ej1\ej1p2.exe&quot; ej1p2.lpr"/>
+</CONFIG>
