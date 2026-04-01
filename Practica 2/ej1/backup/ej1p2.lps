@@ -9,13 +9,13 @@
         <Filename Value="ej1p2.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="22"/>
-        <CursorPos X="28" Y="42"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="97"/>
+        <CursorPos X="51" Y="108"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="13">
       <Position>
         <Filename Value="ej1p2.lpr"/>
         <Caret Line="3" Column="5"/>
@@ -31,6 +31,46 @@
       <Position>
         <Filename Value="ej1p2.lpr"/>
         <Caret Line="42" Column="7" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="83" Column="54" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="82" Column="16" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="78" Column="27" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="84" Column="114" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="31" Column="43" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="37" Column="39" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="30" Column="58" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="36" Column="73" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="108" Column="14" TopLine="96"/>
+      </Position>
+      <Position>
+        <Filename Value="ej1p2.lpr"/>
+        <Caret Line="107" Column="19" TopLine="97"/>
       </Position>
     </JumpHistory>
     <RunParams>

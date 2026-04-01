@@ -1,5 +1,9 @@
 program ej1p2;
 
+const
+  CANT_DETALLES = 10;
+  valorAlto = 9999;
+
 type
   empleado = record
     cod:integer;
@@ -14,54 +18,103 @@ type
   empleadoDetalle = record
     cod:integer;
     fecha:string[8];
+    diasVacaSolicitados:integer;
   end;
 
-  detalles = array[1..10] of empleadoDetalle;
-  fMaestro = file of empleado;
-  fDetalle = file of empleadoDetalle;
-  fDetalles = array[1..10] of fDetalle;
+  maestro = file of empleado;
+  arregloRegistrosDetalles = array[1..CANT_DETALLES] of empleadoDetalle;
+  detalle = file of empleadoDetalle;
+  arregloDetalles = array[1..CANT_DETALLES] of detalle;
 
-procedure leer(var det:fDetalles; d:detalles);
+procedure leer(var det: detalle; var regDet: empleadoDetalle);
 begin
-  if (not eof(detalle)) then read(detalle,detalles);
+  if (not eof(det)) then read(det, regDet)
+  else regDet.cod := valorAlto;
 end;
 
-procedure minimo(var det:detalles); //devuelve el archivo con el empleado con el codigo minimo
-begin
-
-end;
-
-procedure actualizar(var m:fMaestro; var det:fDetalles);
+// devuelve un registro con el codigo minimo de algun archivo detalle
+procedure minimo(var det: arregloDetalles; var regsDet: arregloRegistrosDetalles; var min: empleadoDetalle);
 var
-  i:integer;
-  d:detalles;
+  posMin: integer;
+  i: integer;
 begin
-  for i:=1 to 10 do
+  min := regsDet[1];
+  posMin := 1;
+
+  for i := 2 to CANT_DETALLES do begin
+    if (regsDet[i].cod < min.cod) then begin
+      min := regsDet[i];
+      posMin := i;
+    end;
+  end;
+
+  //se avanza en el archivo que tiene el registro con el menor codigo (mientras no se haya leido un EOF)
+  if (min.cod <> valorAlto) then leer(det[posMin], regsDet[posMin]);
+end;
+
+procedure actualizar(var m: maestro; var det:arregloDetalles);
+var
+  i: integer;
+  regsDet: arregloRegistrosDetalles;
+  min: empleadoDetalle;
+  regM: empleado;
+  archTxt: Text;
+begin
+  reset(m);
+  assign(archTxt, 'empleadosSinVaca');
+  rewrite(archTxt);
+
+  // leo el primer registro de cada detalle
+  for i := 1 to CANT_DETALLES do
   begin
     reset(det[i]);
-    leer(det[i], d[i]);
+    leer(det[i], regsDet[i]);
   end;
-  reset(m);
 
-  minimo(det, d);
+  minimo(det, regsDet, min);
+
+  while (min.cod <> valorAlto) do begin
+    read(m, regM);
+
+    while (regM.cod <> min.cod) do read(m, regM);
+
+    // busco el mismo codigo minimo en todos los detalle para no recorrer el maestro varias veces (proceso un mismo codigo de una pasada)
+    while (regM.cod = min.cod) do begin
+      if (regM.diasVaca - min.diasVacaSolicitados < 0) then begin
+        writeln(archTxt, regM.cod);
+        writeln(archTxt, regM.nomAp);
+        writeln(archTxt, regM.diasVaca);
+        writeln(archTxt, min.diasVacaSolicitados);
+      end
+      else regM.diasVaca := regM.diasVaca - min.diasVacaSolicitados;
+      minimo(det, regsDet, min);
+    end;
+
+    seek(m, filepos(m) -1);
+    write(m, regM);
+  end;
+
+  close(m);
+
+  for i := 1 to CANT_DETALLES do close(det[i]);
+
+  close(archTxt);
 end;
 
 var
-  m:fMaestro;
-  det:fDetalles;
+  m: maestro;
+  det: arregloDetalles;
+  nomDet: string[20];
+  i: integer;
 
 begin
-  assign(m, 'empleados');
-  assign(det[1], 'licenciaEmpleados1');
-  assign(det[2], 'licenciaEmpleados2');
-  assign(det[3], 'licenciaEmpleados3');
-  assign(det[4], 'licenciaEmpleados4');
-  assign(det[5], 'licenciaEmpleados5');
-  assign(det[6], 'licenciaEmpleados6');
-  assign(det[7], 'licenciaEmpleados7');
-  assign(det[8], 'licenciaEmpleados8');
-  assign(det[9], 'licenciaEmpleados9');
-  assign(det[10], 'licenciaEmpleados10');
+  assign(m, 'empleados.dat');
 
-  actualizar(m, det):
+  for i:=1 to CANT_DETALLES do begin
+    write('Escriba un nombre para el archivo detalle ', i ,': ');
+    readln(nomDet);
+    assign(det[i], nomDet);
+  end;
+
+  actualizar(m, det);
 end.
