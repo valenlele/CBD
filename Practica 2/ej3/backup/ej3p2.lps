@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej3p2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="77"/>
+        <CursorPos X="19" Y="91"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="118" Column="25" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="111" Column="56" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="113" Column="52" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="175" Column="8" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="145" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="82" Column="44" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="84" Column="126" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="78" Column="26" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="82" Column="81" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="57" Column="4" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p2.lpr"/>
+        <Caret Line="87" Column="46" TopLine="80"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

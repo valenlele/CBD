@@ -61,7 +61,7 @@ begin
           totDisco := totDisco + reg.cantVendida;
           leer(arch, reg);
         end;
-        writeln(' cantidad vendida: ', totDisco);
+        writeln('. Cantidad vendida: ', totDisco);
         totGenero := totGenero + totDisco;
         write(archTxt, discoAct,' ', autorAct,' ', totDisco);
       end;

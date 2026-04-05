@@ -63,7 +63,7 @@ begin
         end;
         writeln('. Cantidad vendida: ', totDisco);
         totGenero := totGenero + totDisco;
-        write(archTxt, discoAct,' ', autorAct,' ', totDisco);
+        writeln(archTxt, discoAct,' ', autorAct,' ', totDisco);
       end;
       writeln('Total genero: ', totGenero);
       totAutor := totAutor + totGenero;
