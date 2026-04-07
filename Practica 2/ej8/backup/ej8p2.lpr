@@ -42,12 +42,6 @@ begin
   for i := 1 to 15 do close(d[i]);
 end;
 
-procedure leer(var det: detalle; var regDetalle: regD);
-begin
-  if (not eof(det)) then read(det, regDetalle)
-  else regDetalle.codZona := FIN;
-end;
-
 procedure minimo(var d: arregloDetalles; var regsD: arregloRegsD; var min: regD);
 begin
 
