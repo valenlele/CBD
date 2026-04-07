@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej7p2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="97"/>
+        <CursorPos X="47" Y="150"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="12" Column="32" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="34" Column="19" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="29" Column="24" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="51" Column="20" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="56" Column="14" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="57" Column="18" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="60" Column="18" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="111" Column="35" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="27" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="43" Column="34" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="54" Column="29" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="ej7p2.lpr"/>
+        <Caret Line="44" Column="44" TopLine="31"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

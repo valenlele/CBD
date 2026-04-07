@@ -62,6 +62,7 @@ begin
       leer(a, reg);
     end;
     regCompact.codMozo := mozoAct;
+    regCompact.fecha := ' ';
     regCompact.monto:= montoTot;
     write(aCompact, regCompact);
   end;

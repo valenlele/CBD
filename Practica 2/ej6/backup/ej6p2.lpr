@@ -51,7 +51,7 @@ begin
   reset(a);
 
   assign(aCompact, 'serviciosCompact.dat');
-  rewrite(a);
+  rewrite(aCompact);
 
   leer(a, reg);
   while (reg.codMozo <> fin) do begin
@@ -65,13 +65,16 @@ begin
     regCompact.monto:= montoTot;
     write(aCompact, regCompact);
   end;
+
+  close(a);
+  close(aCompact);
 end;
 
 var
   a: arch;
 
 begin
-  crearArchivo(a);
-  {compact(a);}
+  {crearArchivo(a);}
+  compact(a);
   readln;
 end.

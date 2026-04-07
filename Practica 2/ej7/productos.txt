@@ -1,0 +1,30 @@
+2
+Arroz Blanco
+Paquete 1kg
+1200.50
+100
+20
+5
+Leche Entera
+Sachet 1 Litro
+950.00
+80
+15
+10
+Fideos Tallarines
+Paquete 500g
+700.00
+200
+50
+15
+Yerba Mate
+Paquete 500g
+3500.00
+150
+30
+20
+Aceite Girasol
+Botella 900ml
+1800.00
+60
+10

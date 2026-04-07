@@ -6,11 +6,10 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="ej6p2.lpr"/>
+        <Filename Value="ej8p2.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="52"/>
-        <CursorPos X="21" Y="77"/>
+        <CursorPos X="43" Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
