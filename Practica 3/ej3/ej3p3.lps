@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ej3p3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="125"/>
+        <CursorPos X="3" Y="96"/>
+        <FoldState Value=" T3Y0L3 PiEiJ0@"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="13">
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="15" Column="21" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="12" Column="29"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="32" Column="19" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="31" Column="31" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="47" Column="27" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="43" Column="20" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="9" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="74" Column="66" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="85" Column="35" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="64" Column="30" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="89" Column="27" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="19" Column="36" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="90" Column="26" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="ej3p3.lpr"/>
+        <Caret Line="112" Column="27" TopLine="100"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

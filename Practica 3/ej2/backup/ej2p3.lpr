@@ -33,7 +33,6 @@ begin
     sLibre := reg.descripcion;
 
     seek(arch, 0);
-    read(arch, reg);
     reg.descripcion := sLibre;
     write(arch, reg);
 
@@ -55,7 +54,7 @@ begin
   reset(arch);
   encontre := false;
 
-  read(arch, reg); // reg = datos de la cabecera
+  read(arch, reg);
   sLibre := reg.descripcion;   // leo la posicion del primer hueco libre
 
   while (not eof(arch)) and (encontre = false) do begin
