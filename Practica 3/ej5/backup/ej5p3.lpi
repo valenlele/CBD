@@ -10,7 +10,7 @@
         <MainUnitHasScaledStatement Value="False"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="ej6p3"/>
+      <Title Value="ej5p3"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,9 +26,8 @@
     </RunParams>
     <Units>
       <Unit>
-        <Filename Value="ej6p3.lpr"/>
+        <Filename Value="ej5p3.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="ej5p3"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -36,7 +35,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="ej6p3"/>
+      <Filename Value="ej5p3"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
@@ -44,7 +43,7 @@
     </SearchPaths>
     <Linking>
       <Debugging>
-        <DebugInfoType Value="dsDwarf3"/>
+        <DebugInfoType Value="dsDwarf2Set"/>
       </Debugging>
     </Linking>
   </CompilerOptions>

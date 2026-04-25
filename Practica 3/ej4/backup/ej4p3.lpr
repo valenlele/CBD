@@ -29,6 +29,7 @@ begin
   end;
 
   if (encontre) then begin
+    writeln('Nombre disco: ', reg.nom);
     reg.stock := 0;
     seek(a, filepos(a) - 1);
     write(a, reg);
@@ -45,6 +46,12 @@ begin
   posBorrar := filepos(a) - 1;
   seek(a, filesize(a) - 1);
   read(a, aux);
+  while (aux.stock = 0) do begin
+    seek(a, filesize(a) - 1);
+    truncate(a);
+    seek(a, filesize(a) - 1);
+    read(a, aux);
+  end;
   seek(a, posBorrar);
   write(a, aux);
   seek(a, filesize(a) - 1);
@@ -54,12 +61,17 @@ end;
 procedure compactar(var a: arch);
 var
   reg: cd;
+  pos: integer;
 begin
   reset(a);
 
   while (not eof(a)) do begin
     read(a, reg);
-    if (reg.stock = 0) then bajaFisica(a);
+    if (reg.stock = 0) then begin
+      pos := filepos(a) - 1;
+      bajaFisica(a);
+      seek(a, pos);
+    end
   end;
 
   close(a);
@@ -70,6 +82,8 @@ var
   a: arch;
 
 begin
+  assign(a, 'discos.dat');
+
   writeln('Se ingresan por teclado codigos de discos sin stock: ');
   write('Ingrese codigo: ');
   readln(cod);

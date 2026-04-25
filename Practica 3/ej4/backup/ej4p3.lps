@@ -9,13 +9,45 @@
         <Filename Value="ej4p3.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="46"/>
-        <CursorPos X="48" Y="59"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="37"/>
+        <CursorPos X="35" Y="51"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1290"/>
+        <CursorPos X="11" Y="1293"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="14" Column="28" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="77" Column="50" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="73" Column="40" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="72" Column="26" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="50" Column="5" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ej4p3.lpr"/>
+        <Caret Line="51" Column="17" TopLine="37"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

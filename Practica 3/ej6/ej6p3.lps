@@ -8,13 +8,24 @@
       <Unit>
         <Filename Value="ej6p3.lpr"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ej5p3"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="14"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="49"/>
+        <CursorPos X="18" Y="65"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="1">
+      <Position>
+        <Filename Value="ej6p3.lpr"/>
+        <Caret Line="47" Column="58" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="ej6p3.lpr"/>
+        <Caret Line="88" Column="8" TopLine="66"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

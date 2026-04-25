@@ -9,22 +9,13 @@
         <Filename Value="ej5p3.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="46"/>
-        <CursorPos X="45" Y="50"/>
+        <TopLine Value="39"/>
+        <CursorPos X="34" Y="52"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
-      <Position>
-        <Filename Value="ej5p3.lpr"/>
-        <Caret Line="49" Column="39" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="ej5p3.lpr"/>
-        <Caret Line="59" Column="28" TopLine="46"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
