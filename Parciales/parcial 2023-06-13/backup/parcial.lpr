@@ -36,10 +36,10 @@ begin
 
   for i := 2 to 20 do begin
     if (regsD[i].anio < min.anio) or
-       ((regsD[i].anio = min.anio) and (regsD[i].mes < min.mes)) or
-       ((regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia < min.dia)) or
-       ((regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia = min.dia) and (regsD[i].codMarca < min.codMarca)) or
-       ((regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia = min.dia) and (regsD[i].codMarca = min.codMarca) and (regsD[i].codModelo < min.codModelo)) then begin
+       (regsD[i].anio = min.anio) and (regsD[i].mes < min.mes) or
+       (regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia < min.dia) or
+       (regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia = min.dia) and (regsD[i].marca < min.marca) or
+       (regsD[i].anio = min.anio) and (regsD[i].mes = min.mes) and (regsD[i].dia = min.dia) and (regsD[i].marca = min.marca) and (regsD[i].modelo < min.modelo) then begin
       min := regsD[i];
       minPos := i;
     end;
